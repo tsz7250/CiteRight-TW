@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="引證有據：法律引證分層查核框架的互動原型。固定資料展示，非即時查詢。">
+  <meta name="description" content="引證有據：以固定案例完整呈現不同查核狀態的法律引證流程展示原型。">
   <meta name="color-scheme" content="light">
   <title>引證有據 — 法律引用核對工具</title>
   <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
@@ -20,7 +20,7 @@
     <div class="header-meta"><span class="prototype-label">互動原型</span><span class="competition">NextWave：AI 法創黑客松</span></div>
   </header>
 
-  <div class="demo-notice"><span class="notice-dot" aria-hidden="true"></span><p><strong>預設資料展示</strong>此展示頁內容不可修改、不會上傳資料，也不會即時呼叫 AI 或法律資料服務。</p></div>
+  <div class="demo-notice"><span class="notice-dot" aria-hidden="true"></span><p><strong>流程展示原型</strong>使用固定案例完整呈現不同查核狀態；內容不可修改、不會上傳，也不即時呼叫 AI 或法律資料服務。</p></div>
 
   <main id="workspace">
     <section class="workspace-heading" aria-labelledby="page-title">
@@ -68,7 +68,7 @@
     <details class="how-it-works">
       <summary><span>系統如何核對，以及不能判斷的事</span><span class="details-note">AI 協助找引用，程式依來源核對</span></summary>
       <div class="method-content">
-        <div><h2>核對引用，不替法律答案背書。</h2><p>系統先由規則與 AI 找出可能的法條、判決和引用文字。使用者確認後，法律資料服務（MCP）查找來源，再由程式依固定規則核對文字。</p><p><strong>本頁只展示上述操作流程。</strong>AI 回覆、找到的引用與來源片段均已預先完成；查不到來源，以及在已取得的完整內容中找不到引用，都是明確標示的模擬案例。</p><p>AI 只協助找出可能的引用，不負責最後判定。系統不判斷摘要是否正確、法院是否採納、事情發生時適用的法律版本（行為時法），也不判斷法律是否適用個人情況。尚未完成 24 筆固定案例與完整流程測試，不宣稱準確率。</p><p>法規與判決連結會另開新分頁。除你主動開啟連結外，此展示頁不會向外部服務傳送資料。</p></div>
+        <div><h2>核對引用，不替法律答案背書。</h2><p>系統先由規則與 AI 找出可能的法條、判決和引用文字。使用者確認後，法律資料服務（MCP）查找來源，再由程式依固定規則核對文字。</p><p><strong>本頁刻意使用固定案例展示上述操作流程，</strong>以完整呈現來源查得、文字差異、查無、內容不完整與無法判定等狀態。AI 回覆、引用、來源片段與結果均已預先準備，不代表即時 AI、MCP 或比對引擎已執行；其中查無及在完整內容中找不到引用為明確標示的模擬案例。</p><p>AI 只協助找出可能的引用，不負責最後判定。系統不判斷摘要是否正確、法院是否採納、事情發生時適用的法律版本（行為時法），也不判斷法律是否適用個人情況。尚未完成 24 筆固定案例與完整流程測試，不宣稱準確率。</p><p>法規與判決連結會另開新分頁。除你主動開啟連結外，此展示頁不會向外部服務傳送資料。</p></div>
         <figure><img src="./assets/system_flow.png" width="1800" height="900" loading="lazy" alt="完整系統規劃：輸入文字、規則與 AI 擷取引用、使用者確認、MCP 查找指定來源、程式比對、顯示結果與限制。本頁僅用固定資料展示流程。"><figcaption>完整系統規劃圖，不代表此展示頁已完成所有功能。</figcaption></figure>
       </div>
     </details>
