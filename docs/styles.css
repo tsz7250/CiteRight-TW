@@ -28,7 +28,6 @@ h1, h2, h3 { text-wrap: balance; }
 .skip-link:focus { top: 8px; }
 .site-header { height: 82px; padding: 0 max(32px, calc((100vw - 1380px) / 2)); display: flex; align-items: center; justify-content: space-between; gap: 24px; background: var(--paper); border-bottom: 1px solid var(--line); }
 .brand { display: flex; align-items: center; gap: 12px; color: var(--ink); font-size: 21px; font-weight: 700; text-decoration: none; white-space: nowrap; }
-.brand-en { font-size: 14px; font-weight: 500; margin-left: 9px; color: var(--muted); }
 .header-meta { display: flex; align-items: center; gap: 16px; font-size: 12px; color: var(--muted); }
 .prototype-label { border: 1px solid #bbcdd4; border-radius: 4px; padding: 2px 9px; color: var(--ink); }
 .demo-notice { padding: 10px 32px; background: #e7f1ef; color: #295b54; display: flex; gap: 10px; align-items: baseline; justify-content: center; font-size: 12px; }
@@ -177,7 +176,6 @@ footer a { margin-left: auto; }
   .document-paper { padding: 24px; }
   .stage-content { padding: 24px; }
   .workbench { gap: 18px; }
-  .brand-en { display: none; }
   footer { margin: 0; }
 }
 @media (max-width: 760px) {
