@@ -6,7 +6,7 @@
 
 ## 體驗 Demo
 
-[開啟互動原型](https://tsz7250.github.io/nextwave/)
+[開啟互動原型](https://tsz7250.github.io/CiteRight-TW/)
 
 1. 查看預設、不可修改的 AI 法律回覆。
 2. 確認五筆引用及其來源。
